@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	newsfeed "newsfeeder/platform"
-)
-
 func main() {
 	// r := gin.Default()
 
@@ -12,13 +7,13 @@ func main() {
 
 	// r.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
 
-	feed := newsfeed.New()
+	// feed := newsfeed.New()
 
-	fmt.Println(feed)
+	// fmt.Println(feed)
 
-	feed.Add(newsfeed.Item{
-		"Hello", "How ya ' doing mate?",
-	})
+	// feed.Add(newsfeed.Item{
+	// 	"Hello", "How ya ' doing mate?",
+	// })
 
-	fmt.Println(feed)
+	// fmt.Println(feed)
 }
